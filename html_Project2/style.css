@@ -1,0 +1,9 @@
+h1, h3 {
+    color: white;
+    background-color: black;
+    padding: 5px 0;
+    margin-bottom: 15px;
+}
+p, a {
+    font-weight: 600;
+}
