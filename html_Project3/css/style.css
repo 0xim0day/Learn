@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text, .text-header, .text-footer, .line {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.header {
+    background: #E5E000;
+    color: white;
+    padding: 30px 50px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 80px;
+    background: #E5E000;
+}
+
+.text-header {
+    font-size: 50px;
+    line-height: 57px;
+}
+
+.text-footer {
+    font-size: 50px;
+    line-height: 57px;
+    color: white;
+}
+
+.line {
+    font-size: 25px;
+    line-height: 29px;
+    background: #E5E000;
+    color: white;
+    padding: 20px 50px;
+}
+
+h1, p {
+    padding: 40px 0;
+}
+
+p {
+    font-weight: 300;
+}
+
+.text {
+    font-size: 50px;
+    line-height: 57px;
+
+    color: #000000;
+    margin: 40px 50px;
+}
