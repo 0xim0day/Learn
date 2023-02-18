@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.txt {
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 57px;
+}
+
+.footer {
+    padding: 20px;
+    background: #F8BFC7;
+    color: white;
+}
+
+.header {
+    color: #E50043;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.first {
+    position: relative;
+    text-align: center;
+}
+
+.picture-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #E50043;
+    font-size: 100px;
+    line-height: 115px;
+    white-space: nowrap;
+}
+
+.block {
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    width: 1040px;
+    height: 280px;
+    padding: 20px 15px;
+    margin: 150px;
+}
+
+.block:last-of-type {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottles {
+    display: flex;
+    justify-content: center;
+}
+
+.bottle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.img-bottle {
+    width: 281px;
+    height: 863px;
+    margin-bottom: 42px;
+}
+
+.txt-bottle {
+    font-size: 25px;
+    line-height: 29px;
+}
