@@ -42,13 +42,16 @@
 .first {
     position: relative;
     text-align: center;
+    height: 950px;
+    width: 100%;
+    background-image: url(../img/evian_origins_logo.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
 }
 
 .picture-txt {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: #E50043;
     font-size: 100px;
     line-height: 115px;
